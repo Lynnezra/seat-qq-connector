@@ -1,6 +1,6 @@
 @extends('web::layouts.grids.12')
 
-@section('title', trans('seat-qq-connector::qq_bind_form'))
+@section('title', trans('seat-qq-connector::seat.qq_bind_form'))
 @section('page_header', trans_choice('seat-qq-connector::seat.qq_bind_form', 0))
 
 @section('full')

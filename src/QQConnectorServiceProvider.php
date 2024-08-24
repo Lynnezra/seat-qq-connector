@@ -56,7 +56,7 @@ class QQConnectorServiceProvider extends AbstractSeatPlugin {
     }
 
     private function addTranslations(){
-        $this->loadTranslationsFrom(__DIR__ . './resources/lang', 'seat-qq-connector');
+        $this->loadTranslationsFrom(__DIR__ . '/resources/lang', 'seat-qq-connector');
     }
 
     public function addViews(){

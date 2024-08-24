@@ -15,11 +15,12 @@ use Warlof\Seat\Connector\Exceptions\DriverSettingsException;
 use Warlof\Seat\Connector\Models\User;
 use FeiBam\Seat\Connector\Drivers\QQ\Driver\QQClient;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\App;
 
 class RegistrationController extends Controller{
 
     public function redirectToProvider() {
-
         $seat_user = auth()->user();
         $allow_modification = False;
 

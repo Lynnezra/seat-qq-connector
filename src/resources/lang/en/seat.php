@@ -5,5 +5,5 @@ return [
     'qq_number' => 'QQ Number',
     'qq_name' => 'QQ Name',
     'submit' => 'submit',
-    'allow_change_qq_number' => 'Allow users to change the bound QQ number'
+    'allow_modification_bind_infomation' => 'Allow users to modify bound information'
 ];
