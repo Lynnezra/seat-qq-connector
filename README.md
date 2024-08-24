@@ -15,7 +15,7 @@ Thanks to [Warlof Tutsimo](https://github.com/warlof) for Provide Library Packag
 
 Please make sure to visit https://seat.example.com/seat-connector/settings and click the 'Save' button under the QQ settings the first time you use it. The button should appear green.
 
-### Notice!
+## Notice!
 
 Since the official QQ service does not provide an OAuth2 API for anything other than retrieving the username, and there is no official bot implementation, you may need to manually search for users at https://seat.example.com/seat-connector/users, then grant them permissions or delete them form you group!
 
