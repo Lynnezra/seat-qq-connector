@@ -1,0 +1,47 @@
+{
+    "name": "feibam/seat-connector-qq",
+    "description": "A SeAT plugin can list qq member",
+    "type": "seat-plugin",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "FeiBam\\Seat\\Connector\\Drivers\\QQ\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FeiBam\\Seat\\Connector\\Drivers\\QQ\\Tests\\": "tests/"
+        },
+        "require-dev": {
+            "orchestra/testbench": "^4.0"
+        }
+    },
+    "authors": [
+        {
+            "name": "FeiBam",
+            "email": "feibam19690104@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FeiBam\\Seat\\Connector\\Drivers\\QQ\\QQConnectorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ext-json": "*",
+        "warlof/seat-connector": "^3.0",
+        "socialiteproviders/discord": "^4.2",
+        "eveseat/services": "^5.0",
+        "eveseat/eveapi": "^5.0",
+        "eveseat/web": "^5.0",
+        "eveseat/api": "^5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "rector/rector": "^0.18.2",
+        "driftingly/rector-laravel": "^0.24.1"
+    }
+}
