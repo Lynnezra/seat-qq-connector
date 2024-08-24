@@ -16,7 +16,7 @@
 在您第一次使用之前，请务必访问 https://seat.example.com/seat-connector/settings ，设置页面。
 并且点击一次位于QQ设置下方的保存按钮，他看起来应该是绿色。
 
-### Notice!
+## Notice!
 
 因为QQ 官方没有提供任何除了获取用户名之外的OAuth2.0 API 所以 你可能需要访问 https://seat.example.com/seat-connector/users
 切换到QQ 手动检索用户并且从群里移除他们。
