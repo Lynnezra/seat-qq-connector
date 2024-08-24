@@ -1,4 +1,5 @@
 # Seat QQ Connector  
+[中文文档](https://github.com/FeiBam/seat-qq-connector/blob/master/docs/README_zh.md)
 
 A [SeAT](https://github.com/eveseat/seat) plugin which Link seat user to QQ number to help you find SPY in the group
 
