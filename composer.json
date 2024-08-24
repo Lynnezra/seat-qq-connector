@@ -1,6 +1,6 @@
 {
-    "name": "feibam/seat-connector-qq",
-    "description": "A SeAT plugin can list qq member",
+    "name": "feibam/seat-qq-connector",
+    "description": "A SeAT plugin which Link seat user to QQ number to help you find SPY in the group",
     "type": "seat-plugin",
     "license": "GPL-3.0",
     "autoload": {

@@ -20,7 +20,6 @@ class RegistrationController extends Controller{
 
     public function redirectToProvider() {
 
-        return User::paginate();
         $seat_user = auth()->user();
         $allow_modification = False;
 
