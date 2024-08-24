@@ -8,9 +8,8 @@ A [SeAT](https://github.com/eveseat/seat) plugin which Link seat user to QQ numb
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](https://raw.githubusercontent.com/zenobio93/seat-discord-connector/master/LICENSE)
 
 
-Thanks to [Warlof Tutsimo](https://github.com/warlof) for Provide Library Packages.
+Thanks to [Warlof Tutsimo](https://github.com/warlof) for Provide Library Packages.  
 
----  
 ## Setup
 
 
