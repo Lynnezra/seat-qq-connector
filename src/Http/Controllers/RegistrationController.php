@@ -78,6 +78,14 @@ class RegistrationController extends Controller{
         $seat_user_id = $seat_user -> id;
         $unique_id = md5("$seat_user_id$qq_name$qq_number");
 
+        $driver_user = User::where('connector_type', 'qq')
+        ->where('user_id', $seat_user->id)
+        ->first();
+
+        if(!is_null($driver_user)){
+            $unique_id = $driver_user->unique_id;
+        }
+
         $driver_user = User::updateOrCreate([
             'connector_type' => 'qq',
             'user_id'        => auth()->user()->id,
